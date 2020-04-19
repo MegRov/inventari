@@ -3,6 +3,8 @@
   <html lang="en">
     <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../libs/css/images/favicon.jpg" />
+
     <title><?php if (!empty($page_title))
            echo remove_junk($page_title);
             elseif(!empty($user))
